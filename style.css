@@ -1,0 +1,138 @@
+body {
+    background: #D8DFE2;
+    color: #71ADB5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+h1 {
+    color: #A10054;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+table {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: none;
+}
+
+.container {
+    width: 600px;
+    margin: 30px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.list-inline li i {
+    font-size: 25px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.fa-linkedin{
+    content: "\f0e1";
+}
+
+.fa-facebook{
+    content: "\f09a";
+}
+
+.fa-twitter {
+    content: "\f099";
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+#books {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#books img {
+    width: 80px;
+    height: 118.5px;
+}
+
+#books td {
+    padding: 10px;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 20px;
+}
